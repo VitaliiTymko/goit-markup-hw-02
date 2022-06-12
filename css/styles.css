@@ -1,0 +1,192 @@
+/* :root {
+    /* fonts*/
+/* --main-font: var(--main-font) --secondary-font:var(--main-font)
+        text color */
+
+/* bg color */
+
+/* others */
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: "roboto", "sans-serif";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* -----студия------ */
+
+/* хедер */
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.header-span {
+  color: #000000;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+.site-nav .link.current {
+  color: #2196f3;
+}
+
+.headr-tel,
+.headr-mail {
+  color: #757575;
+}
+
+.headr-tel:hover,
+.headr-tel:focus,
+.headr-mail:hover,
+.headr-mail:focus {
+  color: #2196f3;
+}
+
+/* герой */
+
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero .btn {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: #188ce8;
+}
+
+/* особенности */
+
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text-os {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* чем мы занимаемся */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* наша команда */
+
+.section-comand {
+  background-color: #f5f4fa;
+}
+
+.item-comand {
+  background-color: #ffffff;
+}
+
+.name-comand {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.text-comand {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* футер */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-span {
+  color: #ffffff;
+}
+
+.footer-address {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;  
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* common styles start */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
