@@ -1,15 +1,13 @@
-/* :root {
-    /* fonts*/
-/* --main-font: var(--main-font) --secondary-font:var(--main-font)
-        text color */
-
-/* bg color */
-
-/* others */
+:root {
+--main-txt-color: #212121; 
+--secondary-txt-color: #2196f3;
+--third-txt-color: #757575;
+--bg-color-hero: #2f303a;
+}   
 
 body {
   background-color: #ffffff;
-  color: #212121;
+  color: var(--main-txt-color);
   font-family: "roboto", "sans-serif";
   font-style: normal;
   font-size: 14px;
@@ -24,7 +22,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-txt-color);
 }
 
 .header-logo {
@@ -34,7 +32,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--secondary-txt-color);
 }
 
 .header-span {
@@ -43,29 +41,29 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--secondary-txt-color);
 }
 
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--secondary-txt-color);
 }
 
 .headr-tel,
 .headr-mail {
-  color: #757575;
+  color: var(--third-txt-color);
 }
 
 .headr-tel:hover,
 .headr-tel:focus,
 .headr-mail:hover,
 .headr-mail:focus {
-  color: #2196f3;
+  color: var(--secondary-txt-color);
 }
 
 /* герой */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-color-hero);
   color: #ffffff;
 }
 
@@ -79,7 +77,8 @@ body {
 }
 
 .hero .btn {
-  background-color: #2196f3;
+    font-family: inherit;
+  background-color: var(--secondary-txt-color);
   color: #ffffff;
 }
 
@@ -103,7 +102,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--third-txt-color);
 }
 
 /* чем мы занимаемся */
@@ -140,13 +139,13 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--third-txt-color);
 }
 
 /* футер */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bg-color-hero);
 }
 
 .footer-logo {
@@ -156,7 +155,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--secondary-txt-color);
 }
 
 .footer-span {
@@ -176,9 +175,14 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;  
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--secondary-txt-color);
 }
 
 /* common styles start */
@@ -189,4 +193,43 @@ body {
 .list {
   list-style: none;
 }
+/* common styles end */
 
+
+/* ----ПОРТФОЛИО----- */
+
+.btn-port {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--main-txt-color);
+}
+
+.btn-port:hover,
+.btn-port:focus {
+  background-color: var(--secondary-txt-color);
+  color: #ffffff;
+}
+
+.btn-current {
+    background-color: var(--secondary-txt-color);
+    color: #ffffff; 
+}
+
+.title-port {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text-port {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;  
+  letter-spacing: 0.03em;
+  color: var(--third-txt-color);
+}
