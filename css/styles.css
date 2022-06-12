@@ -3,12 +3,19 @@
   --secondary-txt-color: #2196f3;
   --third-txt-color: #757575;
   --bg-color-hero: #2f303a;
+  --white-color: #ffffff;
+  --bg-color-hero-btn: #188ce8;
+  --bg-color-comand: #f5f4fa;
+  --span-logo-color: #000000;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+  --btn-port-bg-color: #f5f4fa;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--white-color);
   color: var(--main-txt-color);
   font-family: "roboto", "sans-serif";
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -36,7 +43,7 @@ body {
 }
 
 .header-span {
-  color: #000000;
+  color: var(--span-logo-color);
 }
 
 .header-link:hover,
@@ -64,7 +71,7 @@ body {
 
 .hero {
   background-color: var(--bg-color-hero);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero-title {
@@ -79,16 +86,16 @@ body {
 .hero .btn {
   font-family: inherit;
   background-color: var(--secondary-txt-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .hero .btn:hover,
 .hero .btn:focus {
-  background-color: #188ce8;
+  background-color: var(--bg-color-hero-btn);
 }
 
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 /* особенности */
 
@@ -100,7 +107,7 @@ body {
   text-transform: uppercase;
 }
 
-.text-os {  
+.text-os {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -120,11 +127,11 @@ body {
 /* наша команда */
 
 .section-comand {
-  background-color: #f5f4fa;
+  background-color: var(--bg-color-comand);
 }
 
 .item-comand {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .name-comand {
@@ -160,7 +167,7 @@ body {
 }
 
 .footer-span {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-address {
@@ -168,7 +175,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-link {
@@ -177,7 +184,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-color);
 }
 
 .footer-link:hover,
@@ -198,24 +205,25 @@ body {
 /* ----ПОРТФОЛИО----- */
 
 .btn-port {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #f5f4fa;
+  background-color: var(--btn-port-bg-color);
   color: var(--main-txt-color);
 }
 
 .btn-port:hover,
 .btn-port:focus {
   background-color: var(--secondary-txt-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .btn-current {
   background-color: var(--secondary-txt-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .title-port {
@@ -225,7 +233,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.text-port {  
+.text-port {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
