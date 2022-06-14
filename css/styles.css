@@ -14,9 +14,8 @@
 body {
   background-color: var(--white-color);
   color: var(--main-txt-color);
-  font-family: "roboto", "sans-serif";
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -38,12 +37,15 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
 }
 
 .header-span {
   color: var(--span-logo-color);
+}
+
+.site-nav .link {
+  color: var(--main-txt-color);
 }
 
 .header-link:hover,
@@ -84,7 +86,15 @@ body {
 }
 
 .hero .btn {
-  font-family: inherit;
+  font-family: inherit;  
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
   background-color: var(--secondary-txt-color);
   color: var(--white-color);
 }
@@ -103,14 +113,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .text-os {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--third-txt-color);
 }
 
@@ -121,7 +129,6 @@ body {
   font-size: 36px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* наша команда */
@@ -139,14 +146,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .text-comand {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--third-txt-color);
 }
 
@@ -162,7 +167,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--secondary-txt-color);
 }
 
@@ -174,7 +178,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--white-color);
 }
 
@@ -183,7 +186,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-link-color);
 }
 
@@ -210,7 +212,6 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
-  letter-spacing: 0.03em;
   background-color: var(--btn-port-bg-color);
   color: var(--main-txt-color);
 }
@@ -236,6 +237,5 @@ body {
 .text-port {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--third-txt-color);
 }
